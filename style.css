@@ -1,0 +1,109 @@
+/*-------------------------------- Nav, Index y Footer ------------------------------*/
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    border-top: solid 1px black;
+}
+
+
+.menu{
+    background:linear-gradient(to right,pink,black);
+    
+}
+
+.titAM{
+    color: rgb(241, 120, 140);
+}
+
+.bienvenida{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+
+@keyframes un_efecto {
+    0%{
+        transform: translateX(5%);
+        
+    }
+
+    100%{
+        transform: translateY(0%);
+        
+    }
+}
+
+/*-------------------------------- Galeria ------------------------------*/
+.redirecciones a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    margin: 2px;
+
+}
+
+.galeriatit{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+
+
+.serviciostit{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+.sesiones{
+    overflow: hidden;
+    transition: transform 500ms ease;
+  }
+  
+.sesiones:hover, .personal:focus-within {
+    transform: scale(1.05);
+  }
+  
+
+.stafftit{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+.card {
+    overflow: hidden;
+    transition: transform 500ms ease;
+  }
+
+.card:hover, .personal:focus-within {
+    transform: scale(1.05);
+  }
+
+.contactotit{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+
+
+
+/*-------------------------------- Contacto ------------------------------*/

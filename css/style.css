@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+html .body {
+  background-color: white;
+}
+html .menu {
+  background: linear-gradient(to right, pink, black);
+}
+
+@keyframes un_efecto {
+  0% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.bienvenida {
+  animation-name: un_efecto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 2s;
+}
+
+.sesiones{
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.sesiones:hover, .personal:focus-within {
+  transform: scale(1.05);
+}
+
+.sesiones .serviciostit {
+  animation-name: un_efecto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 2s;
+}
+
+.card {
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+.card .card:hover, .card .personal:focus-within {
+  transform: scale(1.05);
+}
+
+.card .redirecciones a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  margin: 2px;
+}
+.card .stafftit {
+  animation-name: un_efecto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 2s;
+}
+
+.galeriatit {
+  animation-name: un_efecto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 2s;
+}
+
+.contactotit {
+  animation-name: un_efecto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 2s;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  border-top: solid 1px black;
+}
+
+.footer .titAM {
+  color: rgb(241, 120, 140);
+}
+
+
+
+.container-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+
+.box {
+  display: flex;
+  width: 500px;
+  border: solid 1px black;
+  border-radius: 100px;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.box h4,
+.box p,
+.box img{
+  position: relative;
+  z-index: 1;
+}
+
+.box img{
+  margin: 10px;
+  border-radius: 100%;
+  border: solid 3px white
+}
+
+.box .background-hover{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: -500px;
+  background: pink;
+  border-radius: 100%;
+  transition: all 300ms;
+  border-radius: 100%;
+}
+
+.box:hover .background-hover{
+  width: 600px;
+  height: 400px;
+  top: -80px;
+  left: -70px;
+
+}
+.cardsC{
+  margin: 50px;
+  
+  background: linear-gradient(to top, pink, rgb(241, 120, 140));
+  text-align: center;
+  
+}
+
+
+/*# sourceMappingURL=style.css.map */

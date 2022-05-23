@@ -1,0 +1,8 @@
+@use "../_custom.scss";
+
+@mixin gradient{
+    background:linear-gradient(
+        to right,
+        $pink,
+        $black);
+}

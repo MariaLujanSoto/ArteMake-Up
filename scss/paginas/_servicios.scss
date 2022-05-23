@@ -1,0 +1,15 @@
+.sesiones{
+    overflow: hidden;
+    transition: transform 500ms ease;
+
+    .sesiones:hover, .personal:focus-within {
+        transform: scale(1.05);
+    }
+
+    .serviciostit{
+        animation-name: un_efecto;
+        @extend .bienvenida
+    }
+    
+
+}

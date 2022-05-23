@@ -1,0 +1,12 @@
+@use "../_custom.scss";
+
+.footer{
+    display: flex;
+    text-align: center;
+    border-top: solid 1px black;
+
+    .titAM{
+        color: $pink-241;
+    }
+    
+}

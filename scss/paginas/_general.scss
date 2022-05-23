@@ -1,0 +1,30 @@
+@use "../_custom.scss";
+@use "../componentes/mixins";
+
+html{
+    scroll-behavior: smooth;
+
+    body{
+        background-color: $pink;
+    }
+    .menu{
+    @include gradient;
+    
+    }
+    
+}
+
+@keyframes un_efecto {
+    0%{
+        transform: translateX(5%);
+        
+    }
+
+    100%{
+        transform: translateY(0%);
+        
+    }
+}
+
+
+
