@@ -121,7 +121,7 @@ html .menu {
 }
 
 .box img{
-  margin: 10px;
+  margin: 5px;
   border-radius: 100%;
   border: solid 3px white
 }
@@ -138,9 +138,9 @@ html .menu {
 }
 
 .box:hover .background-hover{
-  width: 600px;
-  height: 400px;
-  top: -80px;
+  width: 700px;
+  height: 900px;
+  top: -110px;
   left: -70px;
 
 }
