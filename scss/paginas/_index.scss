@@ -7,68 +7,6 @@
     
 }
 
-
-.container-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  
-}
-
-
-.box {
-  display: flex;
-  width: 500px;
-  border: solid 1px $black;
-  border-radius: 100px;
-  flex-direction: row;
-  padding: 10px;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-
-  .box h4,
-  .box p,
-  .box img{
-    position: relative;
-    z-index: 1;
-  }
-  .box img{
-  margin: 5px;
-  border-radius: 100%;
-  border: solid 3px $white
-}
-}
-
-
-
-
-
-
-.box .background-hover{
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: -500px;
-  background: $pink;
-  border-radius: 100%;
-  transition: all 300ms;
-  border-radius: 100%;
-}
-
-.box:hover .background-hover{
-  width: 700px;
-  height: 900px;
-  top: -110px;
-  left: -70px;
-
-}
-
-  
   
 .cardsC{
   @include gradient2;
