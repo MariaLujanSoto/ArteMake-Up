@@ -6,3 +6,10 @@
         $pink,
         $black);
 }
+
+@mixin gradient2{
+    background: linear-gradient(
+        to top,
+         $pink,
+         $pink-241);
+}

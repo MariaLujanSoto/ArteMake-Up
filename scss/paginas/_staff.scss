@@ -7,15 +7,6 @@
         transform: scale(1.05);
       }
 
-    .redirecciones a{
-        text-decoration: none;
-        color: $color_blanco;
-        border: 1px solid $black;
-        border-radius: 5px;
-        background-color: $black;
-        margin: 2px;
-    
-    }
     .stafftit{
         @extend .bienvenida
         
