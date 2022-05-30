@@ -8,6 +8,7 @@ html .menu {
   background: linear-gradient(to right, pink, black);
 }
 
+
 @keyframes un_efecto {
   0% {
     transform: translateX(5%);
@@ -16,6 +17,7 @@ html .menu {
     transform: translateY(0%);
   }
 }
+
 .bienvenida {
   animation-name: un_efecto;
   animation-iteration-count: infinite;
@@ -38,6 +40,9 @@ html .menu {
   animation-direction: alternate-reverse;
   animation-duration: 2s;
 }
+
+
+
 
 .card {
   overflow: hidden;
@@ -140,6 +145,7 @@ html .menu {
   text-align: center;
   
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
